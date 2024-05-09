@@ -17,11 +17,9 @@ public class Main {
             for (int j=0; j<size; j++){
                 if (arr[j] == i) amount++;
             }
-            switch (amount) {
 
-            }
-
-                System.out.println("Число '" + i + "' встречается " + amount + " раза");
+            if (amount>1 && amount<5)  System.out.println("Число '" + i + "' встречается " + amount + " раза");
+             else if (amount>4) System.out.println("Число '" + i + "' встречается " + amount + " раз");
         }
 
     }
