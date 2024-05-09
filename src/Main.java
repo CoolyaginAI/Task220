@@ -13,6 +13,7 @@ public class Main {
         System.out.println("");
 
         for (int i=1; i<value; i++) {
+
             int amount = 0;
             for (int j=0; j<size; j++){
                 if (arr[j] == i) amount++;
